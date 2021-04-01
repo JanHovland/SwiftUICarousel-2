@@ -45,7 +45,8 @@ struct ContentView: View {
                     : nil
             )
         }
-        .animation(.interpolatingSpring(mass: 0.6, stiffness: 100, damping: 10, initialVelocity: 0.3))
+//        .animation(.interpolatingSpring(mass: 0.6, stiffness: 100, damping: 10, initialVelocity: 0.3))
+        .animation(.default)
     }
     
 }
